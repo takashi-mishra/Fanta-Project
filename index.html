@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fanta Project</title>
+
+    <!-- Remix Icon CDN for icons like menu -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main">
+      
+      <!-- ======================= NAVBAR ======================== -->
+      <nav class="d-flex">
+        <h1>LOGO</h1>
+
+        <!-- Center Navigation Links -->
+        <div class="cntr-nav d-flex">
+          <a href="#">Home</a>
+          <a href="#product-section">Product</a>
+          <a href="#shop-section">Shop</a>
+          <a href="https://github.com/takashi-mishra">Contact</a>
+        </div>
+
+        <!-- Mobile Menu Icon -->
+        <i class="ri-menu-line"></i>
+      </nav>
+
+      <!-- ======================= SECTION 1 ======================== -->
+      <div class="section section1 d-flex">
+        <h1>FANTA</h1>
+
+        <!-- Decorative Elements (Images) -->
+        <img id="leaf1" src="./Assets2/leaf.webp" alt="" />
+        <img id="orange2" src="./Assets2/orange2.png" alt="" />
+        <img id="leaf2" src="./Assets2/leaf2.png" alt="" />
+        <img id="fanta" src="./Assets2/fanta.png" alt="" />
+        <img id="orange" src="./Assets2/orange.webp" alt="" />
+      </div>
+
+      <!-- ======================= SECTION 2 (Product Description) ======================== -->
+      <div class="section d-flex section2" id="product-section">
+        <!-- Left side (could be decorative pattern or image) -->
+        <div class="lft d-flex">
+          <div class="magicpattern"></div>
+        </div>
+
+        <!-- Right side content -->
+        <div class="rght d-flex-c">
+          <h1 class="mainHeading">Flavour Updated</h1>
+          <p class="mainP">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit...
+          </p>
+          <button>Check Now</button>
+        </div>
+      </div>
+
+      <!-- ======================= SECTION 3 (Product Cards) ======================== -->
+      <div class="section d-flex section3"  id="shop-section">
+        
+        <!-- Card 1: CocaCola -->
+        <div class="card d-flex-c">
+          <div class="img-div d-flex">
+            <img id="pineapplecut" src="./Assets/orangefruit.jpg" alt="" />
+            <img id="pineapple" src="./Assets2/cocacola.png" alt="" />
+          </div>
+          <h1 class="mainHeading">CocaCola</h1>
+          <button>Buy Now</button>
+        </div>
+
+        <!-- Card 2: Fanta -->
+        <div class="card d-flex-c">
+          <div class="img-div d-flex">
+            <img id="resp-orange" src="./Assets2/orange2.png" alt="" />
+            <img id="resp-fanta" src="./Assets2/fanta.png" alt="" />
+          </div>
+          <h1 class="mainHeading">Fanta</h1>
+          <button>Buy Now</button>
+        </div>
+
+        <!-- Card 3: Lemon -->
+        <div class="card d-flex-c">
+          <div class="img-div d-flex">
+            <img id="orangefruit" src="./Assets/orangefruit.jpg" alt="" />
+            <img id="yellow" src="./Assets2/pepsi.png" alt="" />
+          </div>
+          <h1 class="mainHeading">Lemon</h1>
+          <button>Buy Now</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ========== External Scripts ========== -->
+    <!-- Smooth scrolling library -->
+    <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+
+    <!-- GSAP animation library -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
